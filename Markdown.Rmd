@@ -1,0 +1,16 @@
+---
+title: "Markdown1"
+author: "Felipe"
+date: "2022-11-03"
+output: html_document
+---
+
+```{r Run the code}
+library(terra)
+library(here)
+jan<-terra::rast(here("wc2.1_5m_tavg", "wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
+  
